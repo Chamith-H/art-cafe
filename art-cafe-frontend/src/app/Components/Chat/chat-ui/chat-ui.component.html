@@ -1,0 +1,40 @@
+<div class="Chat">
+    <div class="Chat-Head">
+        <h6>Chat with Us</h6>
+    </div>
+
+    <div (click)="formClick()" class="Chat-Body pt-4">
+        <div *ngFor="let chat of messages" class="Single-Msg">
+            <p class="px-2 me-2">{{chat.message}} <i class="bi bi-check-all"></i></p>
+       </div>
+
+       <div *ngIf="!keyboard && newChat" class="Inform">
+            <div class="Inform-Msg px-3 py-3">
+                <h6>Hi.. <span>{{user}}</span></h6>
+                <img src="../../../../assets/HomePage/Chat/inform.png">
+                <p class="mx-2">Please let us know if you have any issue</p>
+            </div>
+       </div>
+    </div>
+
+    <form (ngSubmit)="onSubmit(chat_msg)" #chat_msg="ngForm" class="Message">
+        <div  class="Msg-Box">
+            <input
+                type="text"
+                name="message"
+                placeholder="Type your message"
+                #_msg="ngModel"
+                (click)="inputData()"
+                [(ngModel)]="Msg"
+                autocomplete="off"
+                required
+                >
+            <button type="submit" class="Send">send</button>
+        </div>
+
+        <div *ngIf="keyboard" class="Keyboard">
+            <img src="../../../../assets/HomePage/Chat/Keypad.png">
+        </div>
+    </form>
+    
+</div>

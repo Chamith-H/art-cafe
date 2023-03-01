@@ -1,0 +1,37 @@
+<div class="User">
+    <div class="Align-Component">
+        <div class="Profile-Box py-5">
+            <div class="User-Profile-Details">
+                <div class="Profile-Pic">
+                    <div class="Pic">
+                        <i class="bi bi-person-fill"></i>
+                    </div>
+                </div>
+    
+                <div class="Profile-Info">
+                    <h5>{{userData.name}}</h5>
+                    <h6>{{userData.email}}</h6>
+                    <p>{{userData.phone}}</p>
+                </div>
+    
+                <hr>
+            </div>
+    
+            <div class="Profile-Handdle">
+                <div class="Handdle-Button" type="button">
+                    <i class="bi bi-coin"></i>
+                    <label>Payments</label>
+                </div>
+    
+                <div class="Handdle-Button" type="button" (click)="goCart()">
+                    <i class="bi bi-cart4"></i>
+                    <label>Your Cart</label>
+                </div>
+            </div>
+    
+            <div class="Log-Out">
+                <button (click)="logOut()"><a class="mx-0" href="/">Sign out</a></button>
+            </div>
+        </div>
+    </div>
+</div>

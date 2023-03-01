@@ -1,0 +1,83 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0px -2px 4px 1px rgba(0, 0, 0, 0.568);
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Border-Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Border-Header h2 {
+    color: rgb(49, 49, 49);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Border-Header span{
+    color: rgba(0, 0, 129, 0.815);
+}
+
+.Hire-Content{
+    width: 100%;
+    text-align: justify;
+}
+
+.Hire-Content p{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(133, 132, 132);
+}
+
+.Main-Info{
+    display: flex;
+    justify-content: center;
+    color: rgb(14, 14, 65);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Social-Icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Icon-Circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    border-style: none;
+    border-radius: 100%;
+    background-color: rgb(223, 223, 223);
+}
+
+.List{
+    display: flex;
+    flex-direction: column;
+    color: rgb(99, 99, 99);
+}
+
+.List a{
+    font-size: 14px;
+}
+
+hr{
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(0, 0, 117);
+}
+
+.Link-List img{
+    width: 90%;
+}

@@ -1,0 +1,26 @@
+<div class="Art-List pt-2">
+    
+    <div class="row me-0 px-5 pb-5 pt-3">
+        <div *ngFor="let items of gallery" class="col-6 col-sm-4 col-md-3 col-xl-2">
+            <div tyep="button" (click)="addCart(items)" class="Art-Item pt-3">
+                <img src={{items.image}}>
+                <p>$ {{items.status}}.00</p>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="itemClicked" class="Popup-Box">
+        <div *ngIf="!confirmCart" class="Popup">
+            <h5>Do you want to add this item..?</h5>
+            <div class="Buttons">
+                <button id="yes" (click)="save_toCart()">Yes I do</button>
+                <button id="no" (click)="itemClicked=!itemClicked">No I don't</button>
+            </div>
+        </div>
+
+        <div *ngIf="confirmCart" class="Popup">
+            <h5>Item was added successfully...!</h5>
+            <button id="ok" (click)="itemClicked=!itemClicked">OK..&nbsp; Done</button>
+        </div>
+    </div>
+</div>

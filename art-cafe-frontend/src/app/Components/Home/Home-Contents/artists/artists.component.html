@@ -1,0 +1,21 @@
+<div class="Artists pt-5 pb-4">
+    <div class="col-10 col-lg-11">
+        <div class="row">
+            <div class="col-12 col-xl-7 pe-xl-5 About-Artists">
+                <h2>BROWSE <span>ARTISTS'</span> DETAILS</h2>
+                <p>Painting artists are individuals who use paint as their medium to create visual art. They may work with a variety of paint types, such as oil, acrylic, or watercolor, and often use a variety of tools, such as brushes, palette knives, and sponges, to apply the paint to their surfaces. Painting artists may work in a variety of styles, from traditional representational art to abstract expressionism. They often draw inspiration from their surroundings, personal experiences, and emotions to create their works. Many painting artists have a unique vision and style, making each piece of art they create one-of-a-kind. They are known for their ability to create powerful and emotional images that can evoke a wide range of feelings in the viewer.</p>
+                <button (click)="scroll()" class="mb-5 mb-xl-0" routerLink="/artists" [queryParamsHandling]="'merge'">CLICK HERE TO GET MORE DETAILS</button>
+            </div>
+
+            <div class="col-12 col-xl-5">
+                <div class="row">
+                    <div *ngFor="let artist of Artists" class="col-4 col-md-3 col-lg-2 col-xl-3 Photo-Box">
+                        <div class="Single-Artist my-3">
+                            <img src={{artist.image}}>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

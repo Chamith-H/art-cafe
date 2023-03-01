@@ -1,0 +1,162 @@
+<form (ngSubmit)="onSubmit(sign_up_Form)" #sign_up_Form="ngForm" class="Sign-Up">
+    <div class="Align-Box">
+        <div class="col-12 col-sm-5 col-md-4 col-lg-4 Form-Content">
+            <div class="Sign-Content pt-4">
+                <h1>WELCOME TO THE <br> <span>ART CAFE</span></h1>
+                <p>" The registration of a new user is the first step in creating a personalized and engaging experience. "</p>
+            </div>
+        </div>
+    
+        <div class="col-12 col-sm-7 col-md-8 col-lg-8">
+            <div class="Sign-up-Form pe-sm-3 pe-lg-0">
+                <div class="d-flex justify-content-center">
+                    <div class="Form-Fields col-10 col-sm-11 col-lg-9 px-2">
+                        <div class="Sign-up_Header">
+                            <h4>Sign up</h4>
+                            <p>The best way to predict the future is to create it.</p>
+                        </div>
+            
+                        <div class="Sign-up_Fields">
+                            <div class="row">
+                                <div class="col-12 col-md-6 ">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="Part">
+                                            <div class="Single-Field">
+                                                <label>Name</label>
+                                                <input 
+                                                    type="text"
+                                                    name="name"
+                                                    placeholder="Your name" 
+                                                    [(ngModel)]="signData.name"
+                                                    #Name="ngModel"
+                                                    (change)="inputChange(Name)"
+                                                    required
+                                                >
+                                            </div>
+            
+                                            <div class="Single-Field">
+                                                <label>Email</label>
+                                                <input 
+                                                    placeholder="example@gmail.com"  
+                                                    type="text"
+                                                    name="email"
+                                                    [(ngModel)]="signData.email"
+                                                    #Email="ngModel"
+                                                    (change)="inputChange(Email)"
+                                                    required
+                                                >
+                                            </div>
+            
+                                            <div class="Single-Field">
+                                                <label>Username</label>
+                                                <input 
+                                                    placeholder="enter new username"
+                                                    type="text"
+                                                    name="username"
+                                                    [(ngModel)]="signData.username"
+                                                    #Username="ngModel"
+                                                    (change)="inputChange(Username)"
+                                                    required
+                                                >
+                                            </div>
+            
+                                            <div class="Single-Field">
+                                                <label>Phone number</label>
+                                                <input 
+                                                    placeholder="07X1234567"
+                                                    type="text"
+                                                    name="phone"
+                                                    [(ngModel)]="signData.phone"
+                                                    #Phone="ngModel"
+                                                    (change)="inputChange(Phone)"
+                                                    required
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="Part">
+                                            <div class="Single-Field">
+                                                <label>Country</label>
+                                                <input 
+                                                    placeholder="Your country"
+                                                    type="text"
+                                                    name="country"
+                                                    [(ngModel)]="signData.country"
+                                                    #Country="ngModel"
+                                                    (change)="inputChange(Country)"
+                                                    required
+                                                >
+                                            </div>
+            
+                                            <div class="Single-Field">
+                                                <label>Region</label>
+                                                <input 
+                                                    placeholder="Your region"
+                                                    type="text"
+                                                    name="region" 
+                                                    [(ngModel)]="signData.region"
+                                                    #Region="ngModel"
+                                                    (change)="inputChange(Region)"
+                                                    required
+                                                >
+                                            </div>
+            
+                                            <div class="Single-Field">
+                                                <label>Password</label>
+                                                <input 
+                                                    placeholder="Your password"
+                                                    type="text"
+                                                    name="password"
+                                                    [(ngModel)]="signData.password"
+                                                    #Password="ngModel"
+                                                    (change)="inputChange(Password)"
+                                                    required
+                                                >
+                                            </div>
+            
+                                            <div class="Single-Field">
+                                                <label>Confirm password</label>
+                                                <input placeholder="Confirm password">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="Sign-up_Handdle col-12 mt-3">
+                            <div class="row">
+                                <div class="col-12 col-md-6 ">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="Part">
+                                            <div class="Sign-Condition">
+                                                <input type="checkbox">
+                                                <p>I agree to all the <a href="#">terms & Conditions</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+            
+                                <div class="col-12 col-md-6 ">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="Part">
+                                            <div class="Single-Field">
+                                                <button type="submit">Sign up</button>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</form>

@@ -1,0 +1,85 @@
+<div class="Sign-in">
+    <div class="Align-Box">
+        <div class="Sign-Form pb-3 pt-2">
+
+            <form (ngSubmit)="onSubmit(sign_in_Form)" #sign_in_Form="ngForm">
+                <div class="Align-Form">
+                    <div class="Login-Head">
+                        <h4>Sign in</h4>
+                        <p>Please enter your details</p>
+                    </div>
+            
+                    <div class="login-Field">
+                        <div class="Field mb-1">
+                            <label>Username</label>
+            
+                            <input  type="text"
+                                    name="username" 
+                                    placeholder="Your username" 
+                                    [(ngModel)]="loginCredentials.username"
+                                    #userName="ngModel"
+                                    (change)="inputChange(userName)"
+                                    (click)="handdleData_Error()"
+                                    required
+                            >
+            
+                            <div *ngIf="userName.touched || showValidation_Box">
+                                <div *ngIf="!userName.valid" class="Validation-Box">
+                                    <span *ngIf="userName.errors?.['required']">* username cannot be empty</span>
+                                </div>
+            
+                                <div *ngIf="userName.valid && showData_Validations.username_Error" class="Validation-Box">
+                                    <span>* username cannot be found</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                
+                        <div class="Field">
+                            <label>Password</label>
+            
+                            <input  type="password" 
+                                    name="password" 
+                                    placeholder="Your password" 
+                                    [(ngModel)]="loginCredentials.password"
+                                    #passWord="ngModel"
+                                    (change)="inputChange(passWord)"
+                                    (click)="handdleData_Error()"
+                                    required
+                            >
+            
+                            <div *ngIf="passWord.touched || showValidation_Box">
+                                <div *ngIf="!passWord.valid" class="Validation-Box">
+                                    <span *ngIf="passWord.errors?.['required']">* password cannot be empty</span>
+                                </div>
+            
+                                <div *ngIf="passWord.valid && showData_Validations.password_Error" class="Validation-Box">
+                                    <span>* incorrect password</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="Options">
+                        <div class="Remember">
+                            <input type="checkbox">
+                            <label>Remember me</label>
+                        </div>
+                        
+                        <button>Forgot Password?</button>
+                    </div>
+            
+                    <div class="Sign-Button">
+                        <button type="submit">Sign in</button>
+                    </div>
+            
+                    <div class="Navigate-Register">
+                        <p>Don't have an account?</p>
+                        <a href="sign-up">Sign up</a>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

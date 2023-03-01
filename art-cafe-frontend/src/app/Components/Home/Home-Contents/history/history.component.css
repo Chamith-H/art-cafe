@@ -1,0 +1,26 @@
+.History {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(4, 0, 56);
+}
+
+img{
+    width:80%
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+    color: rgba(230, 230, 230, 0.61);
+}
+
+span {
+    color: rgb(30, 90, 255);
+}

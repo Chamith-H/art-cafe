@@ -1,0 +1,143 @@
+.Chat {
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Chat-Head {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.Chat-Head h6{
+    font-size: 13px;
+    height: 9px;
+    color: rgba(0, 15, 99, 0.938);
+}
+
+.Chat-Body {
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    overflow-y: scroll;
+}
+
+.Chat-Body::-webkit-scrollbar {
+    background-color: rgba(0, 0, 255, 0);
+    width:4px
+}
+
+.Chat-Body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+.Msg-Box {
+    padding-top: 5px;
+    width: 100%;
+    height: 38px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.Msg-Box input{
+    padding-left: 8px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    height: 28px;
+    width: 190px;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+    border-width: 1px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.Msg-Box input::placeholder {
+    color: rgb(177, 177, 177);
+    font-style: italic;
+}
+
+.Send{
+    font-size: 12px;
+    height: 28px;
+    border-style: none;
+    width: 50px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.Send img{
+    width: 100%;
+}
+
+.Keyboard{
+    width: 100%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.Keyboard img{
+    width: 100%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.Single-Msg {
+    display: flex;
+    justify-content: end;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.Single-Msg p{
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+.Single-Msg i{
+    color: rgb(171, 171, 255);
+}
+
+.Inform {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 23px;
+    background-color: rgba(255, 255, 255, 0.884);
+    border-radius: 4px;
+    box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.863);
+}
+
+.Inform-Msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Inform-Msg img{
+    width: 70%;
+}
+
+.Inform-Msg p{
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(0, 0, 95);
+    font-weight: 500;
+}
+
+.Inform-Msg span {
+    color: rgb(0, 0, 160);
+}

@@ -1,0 +1,43 @@
+<header class="Header bg-white sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light px-3 py-3">
+        <div class="navbar-brand Brand-Logo">
+            <img src="../../../../assets/LOGO/Logo.jpg">
+        </div>
+
+        <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" (click)="scroll()" routerLink="/" [queryParamsHandling]="'merge'">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" (click)="scroll()" routerLink="/categories" [queryParamsHandling]="'merge'">Categories</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" (click)="scroll()" routerLink="/artists" [queryParamsHandling]="'merge'">Artists</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" (click)="scroll()" routerLink="/about" [queryParamsHandling]="'merge'">About Us</a>
+                </li>
+            </ul>
+        </div>
+        <button class="Chat-Btn d-none d-md-block" (click)="getChat()"><i class="bi bi-chat-square-dots"></i></button>
+        <button class="Account d-none d-md-block" (click)="goAccount()"><i class="bi bi-person-fill"></i></button>
+    </nav>
+
+    <div *ngIf="chat" class="Chat-Box">
+        <div class="Chat-view">
+            <app-chat-ui></app-chat-ui>
+        </div>
+    </div>
+</header>

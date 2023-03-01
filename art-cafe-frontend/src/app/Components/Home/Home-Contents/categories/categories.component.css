@@ -1,0 +1,39 @@
+.CategoryHome{
+    background-image: url(../../../../../assets/HomePage/Categories/CategoryBack.jpg);
+    background-size: cover;
+}
+
+.Categories{
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.Category-Box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 6px 2px rgb(0, 0, 0);
+    width:100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Category-Box:hover {
+    box-shadow: 3px 3px 6px 3px rgba(0, 8, 80, 0.801);
+}
+
+.Category-Box h5 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.Category-Box p{
+    margin-top: 30px;
+    font-size: 13px;
+    color: rgb(116, 116, 116);
+}
+
+.Category-Box img{
+    width: 70%;
+    margin-top: 10px;
+}

@@ -1,0 +1,167 @@
+.Sign-in {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../../../assets/Account/Sign-in_Image.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.Align-Box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.Sign-Form {
+    width:300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px 2px rgb(0, 0, 0);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Align-Form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 100%;
+    justify-content: center;
+}
+
+.Login-Head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.Login-Head h4{
+    font-size: 22px;
+    color: rgb(0, 6, 75);
+}
+
+.Login-Head p{
+    margin-top: -8px;
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+}
+
+.login-Field{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.Field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:-7px;
+}
+
+.Field label{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(0, 1, 65);
+}
+
+.Field input{
+    width: 100%;
+    height:30px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(212, 212, 212);
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.Field input::placeholder{
+    color: rgb(180, 180, 180);
+    font-style: italic;
+}
+
+.Options{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Options button{
+    height: 24px;
+    padding:0px;
+    font-size: 13px;
+    border-style: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.Options label{
+    font-size: 13px;
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+.Sign-Button{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.Sign-Button button{
+    width: 100%;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    height: 31px;
+    background-color:rgb(0, 8, 92);
+}
+
+.Navigate-Register{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Navigate-Register p{
+    font-size: 14px;
+}
+
+.Navigate-Register a{
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 4px;
+}
+
+.Validation-Box{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(255, 238, 238);
+    display: flex;
+    align-items: center;
+}
+
+.Validation-Box span{
+    font-size: 12px;
+    margin-left: 7px;
+    color: rgb(228, 0, 0);
+}

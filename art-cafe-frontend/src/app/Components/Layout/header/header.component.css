@@ -1,0 +1,67 @@
+.Header {
+    width:100;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.733);
+}
+
+li a {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(95, 109, 190) !important;
+}
+
+li a:hover{
+    color: rgb(0, 38, 255) !important;
+}
+
+.Brand-Logo img {
+    position: absolute;
+    top:5px;
+    left:10px;
+    height: 60px;
+}
+
+.Account {
+    height: 38px;
+    width: 38px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Account i {
+    font-size: 23px;
+}
+
+.Chat-Box{
+    position: fixed;
+    width: 250px;
+    height: 370px;
+    bottom: 15px;
+    right: 15px;
+    box-shadow: 2px 2px 5px 1px rgb(0, 0, 0);
+    border-radius: 4px;
+    background-image: url(../../../../assets/HomePage/Chat/Chat-Box.jpg);
+    background-size: cover;
+}
+
+.Chat-view {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.Chat-Btn {
+    background-color: rgba(250, 235, 215, 0);
+    border-style: none;
+    margin-right: 6px;
+}
+
+.Chat-Btn i{
+    font-size: 22px;
+}

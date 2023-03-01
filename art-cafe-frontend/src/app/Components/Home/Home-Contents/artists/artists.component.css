@@ -1,0 +1,40 @@
+.Artists{
+    display: flex;
+    justify-content:center
+}
+
+.Single-Artist{
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.233);
+}
+
+.Single-Artist img{
+    width: 100%;
+}
+
+.About-Artists h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.About-Artists span {
+    color: rgba(3, 3, 133, 0.884);
+}
+
+.About-Artists p{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.About-Artists button {
+    margin-top: 10px;
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 43px;
+    font-size: 14px;
+    width: 280px;
+    border-style: none;
+    background-color: rgb(0, 5, 82);
+    color: rgb(255, 255, 255);
+}

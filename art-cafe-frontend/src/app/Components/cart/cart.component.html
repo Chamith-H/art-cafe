@@ -1,0 +1,24 @@
+<div class="Cart">
+    <div class="Cart-Name mb-5 py-2 sticky-top">
+        <h2>Hi.. <span>{{userData.name}}</span></h2>
+        <h6>This is your Cart</h6>
+    </div>
+
+    <div *ngIf="showCart" class="row me-0 px-5 pb-5">
+        <div *ngFor="let item of cart" class="col-2">
+            <button class="Remove px-3 py-1">Remove from Cart</button>
+            <img src={{item.image}}>
+            <h6>$ {{item.price}}.00</h6>
+        </div>
+    </div>
+
+    <div *ngIf="!showCart" class="Empty-Cart">
+        <div class="Cart-Box">
+            <h6>No items were added</h6>
+            <p>You can add items using a single click</p>
+            <div class="Add-Item">
+                <button routerLink="/categories" [queryParamsHandling]="'merge'"><i class="bi bi-plus-circle-fill"></i>&nbsp;&nbsp;Add Items</button>
+            </div>
+        </div>
+    </div>
+</div>
