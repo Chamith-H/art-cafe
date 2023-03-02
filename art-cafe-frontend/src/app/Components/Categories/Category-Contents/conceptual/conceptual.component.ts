@@ -13,99 +13,99 @@ export class ConceptualComponent {
 
   public gallery = [
     {
-      image:'../../../../../assets/Categories/1.jpg',
+      image:'assets/Categories/1.jpg',
       status:'12'
     },
     {
-      image:'../../../../../assets/Categories/2.jpg',
+      image:'assets/Categories/2.jpg',
       status:'7'
     },
     {
-      image:'../../../../../assets/Categories/3.jpg',
+      image:'assets/Categories/3.jpg',
       status:'11'
     },
     {
-      image:'../../../../../assets/Categories/4.jpg',
+      image:'assets/Categories/4.jpg',
       status:'22'
     },
     {
-      image:'../../../../../assets/Categories/5.jpg',
+      image:'assets/Categories/5.jpg',
       status:'12'
     },
     {
-      image:'../../../../../assets/Categories/6.jpg',
+      image:'assets/Categories/6.jpg',
       status:'15'
     },
     {
-      image:'../../../../../assets/Categories/8.jpg',
+      image:'assets/Categories/8.jpg',
       status:'32'
     },
     {
-      image:'../../../../../assets/Categories/9.jpg',
+      image:'assets/Categories/9.jpg',
       status:'56'
     },
     {
-      image:'../../../../../assets/Categories/10.jpg',
+      image:'assets/Categories/10.jpg',
       status:'5'
     },
     {
-      image:'../../../../../assets/Categories/11.jpg',
+      image:'assets/Categories/11.jpg',
       status:'2'
     },
     {
-      image:'../../../../../assets/Categories/12.jpg',
+      image:'assets/Categories/12.jpg',
       status:'5'
     },
     {
-      image:'../../../../../assets/Categories/13.jpg',
+      image:'assets/Categories/13.jpg',
       status:'3'
     },
     {
-      image:'../../../../../assets/Categories/14.jpg',
+      image:'assets/Categories/14.jpg',
       status:'23'
     },
     {
-      image:'../../../../../assets/Categories/15.jpg',
+      image:'assets/Categories/15.jpg',
       status:'13'
     },
     {
-      image:'../../../../../assets/Categories/16.jpg',
+      image:'assets/Categories/16.jpg',
       status:'31'
     },
     {
-      image:'../../../../../assets/Categories/17.jpeg',
+      image:'assets/Categories/17.jpeg',
       status:'42'
     },
     {
-      image:'../../../../../assets/Categories/18.jpeg',
+      image:'assets/Categories/18.jpeg',
       status:'67'
     },
     {
-      image:'../../../../../assets/Categories/19.jpeg',
+      image:'assets/Categories/19.jpeg',
       status:'12'
     },
     {
-      image:'../../../../../assets/Categories/20.jpg',
+      image:'assets/Categories/20.jpg',
       status:'16'
     },
     {
-      image:'../../../../../assets/Categories/21.jpg',
+      image:'assets/Categories/21.jpg',
       status:'17'
     },
     {
-      image:'../../../../../assets/Categories/22.jpg',
+      image:'assets/Categories/22.jpg',
       status:'24'
     },
     {
-      image:'../../../../../assets/Categories/1.jpg',
+      image:'assets/Categories/1.jpg',
       status:'12'
     },
     {
-      image:'../../../../../assets/Categories/2.jpg',
+      image:'assets/Categories/2.jpg',
       status:'7'
     },
     {
-      image:'../../../../../assets/Categories/4.jpg',
+      image:'assets/Categories/4.jpg',
       status:'22'
     },
   ]

@@ -9,91 +9,91 @@ export class ArtistPageComponent {
   public Artists = [
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/1.jpeg'
+      image:'assets/HomePage/Artists/1.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/2.jpeg'
+      image:'assets/HomePage/Artists/2.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/3.jpeg'
+      image:'assets/HomePage/Artists/3.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/4.jpeg'
+      image:'assets/HomePage/Artists/4.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/5.jpeg'
+      image:'assets/HomePage/Artists/5.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/6.jpeg'
+      image:'assets/HomePage/Artists/6.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/7.jpeg'
+      image:'assets/HomePage/Artists/7.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/8.jpeg'
+      image:'assets/HomePage/Artists/8.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/9.jpeg'
+      image:'assets/HomePage/Artists/9.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/10.jpeg'
+      image:'assets/HomePage/Artists/10.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/11.jpeg'
+      image:'assets/HomePage/Artists/11.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/12.jpeg'
+      image:'assets/HomePage/Artists/12.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/13.jpg'
+      image:'assets/HomePage/Artists/13.jpg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/14.webp'
+      image:'assets/HomePage/Artists/14.webp'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/15.jpeg'
+      image:'assets/HomePage/Artists/15.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/16.jpeg'
+      image:'assets/HomePage/Artists/16.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/17.jpeg'
+      image:'assets/HomePage/Artists/17.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/18.jpeg'
+      image:'assets/HomePage/Artists/18.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/19.jpeg'
+      image:'assets/HomePage/Artists/19.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/20.jpeg'
+      image:'assets/HomePage/Artists/20.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/21.jpeg'
+      image:'assets/HomePage/Artists/21.jpeg'
     },
     {
       name:'Lionardo de Caprio',
-      image:'../../../assets/HomePage/Artists/22.jpeg'
+      image:'assets/HomePage/Artists/22.jpeg'
     },
   ]
 }
