@@ -11,28 +11,28 @@ export class CategoriesComponent {
     {
       name:'Conceptual Arts',
       image:'assets/HomePage/Categories/Conceptual.png',
-      status:'Simple text for the this image arte gallery',
+      status:'Click here to see our conceptual arts',
       link:'/conceptual'
     },
 
     {
       name:'Digital Arts',
       image:'assets/HomePage/Categories/Digital.png',
-      status:'Simple text for the this image arte gallery',
+      status:'Click here to see our digital arts',
       link:'/digital'
     },
 
     {
       name:'Drawings',
       image:'assets/HomePage/Categories/Drawings.png',
-      status:'Simple text for the this image arte gallery',
+      status:'Click here to see our drawings',
       link:'/drawings'
     },
 
     {
       name:'Paintings',
       image:'assets/HomePage/Categories/Paintings.png',
-      status:'Simple text for the this image arte gallery',
+      status:'Click here to see our paintings',
       link:'/paintings'
     }
   ]
